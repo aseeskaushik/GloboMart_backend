@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "100mb" }));
 app.use(fileUpload({ limits: { fileSize: 100 * 1024 * 1024 } }));
 app.use(
   cors({
-    origin: ["https://genie-bazaar-frontend.vercel.app"],
+    origin: ["https://globo-mart-frontend.vercel.app"],
   })
 );
 connectDb();
